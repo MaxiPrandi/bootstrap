@@ -1,0 +1,48 @@
+$secondary:rgb(234, 0, 255);
+
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+*{
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+@include media-breakpoint-up(xs) { 
+    .contenido h1{
+        color: rgb(55, 0, 255);
+        font-size: 40px;
+        }
+     }
+@include media-breakpoint-up(sm) { 
+    .contenido h1{
+        color: rgb(255, 238, 0);
+        font-size: 70px;
+        } 
+    .contenido {
+        background-color: blue;
+    }
+    }
+
+@include media-breakpoint-up(md) {
+    .contenido h1{
+        color: rgb(255, 0, 0);
+        font-size: 100px;
+        } 
+        .contenido {
+            background-color: rgb(74, 74, 80);
+        }
+        }
+    
+
+
+
+@include media-breakpoint-up(lg) {
+    .contenido h1{
+    color: rgb(44, 187, 8);
+    font-size: 150px;}
+    .contenido {
+        background-image: url(https://wallpaperaccess.com/full/3467359.jpg);
+        background-size: cover;
+        
+    }
+}
